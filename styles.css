@@ -1,0 +1,69 @@
+.container {
+  background: linear-gradient(#6262a1, #3a3a55, #1f1f39, #23234b);
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.486);
+}
+body {
+  width: 40vw;
+  height: 100%;
+  margin: 0 auto;
+  background: linear-gradient(#131324, #252542, #1f1f39, #303080);
+  color: white;
+  font-family: Tahoma;
+  font-size: 20px;
+}
+h1,
+p {
+  text-align: center;
+}
+p {
+  font-family: cursive;
+}
+input,
+select {
+  display: block;
+  width: 100%;
+  height: 2em;
+  margin: 1.1em 0;
+  border-radius: 10px;
+  background-color: #1f1f30;
+  border-color: #47476d;
+  color: white;
+}
+
+.genero,
+.casillas {
+  width: unset;
+  display: unset;
+  height: unset;
+}
+label {
+  display: block;
+  margin: 1.1em 0;
+}
+
+fieldset {
+  margin: 1.1em 0;
+  border: none;
+  border-bottom: 3px solid black;
+}
+.sexo {
+  display: unset;
+  margin: 0 5px;
+}
+.casillas {
+  margin: unset;
+  margin-right: 5px;
+}
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1.1em 0;
+}
+input[type="submit"] {
+  width: 50%;
+  margin: 0 auto;
+  border-color: rgb(40, 41, 43);
+  background-color: #000000;
+}
