@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+ <body>
+  
+   <h1 id="title">Reclutamiento Musical</h1>
+   <p id="description">Gracias por interesarte en esta encuesta de reclutamiento.</p>
+    <div class="container">
+   <form id="survey-form">
+     <label id="name-label" for="name"> Nombres y Apellidos: 
+     <input type="text" id="name" placeholder="J**** E****" required >
+</label>
+ <label id="email-label" for="email"> Email:
+        <input type="email" id="email" placeholder="Example@gmail.com" required>
+</label>
+
+ <label id="number-label" for="number">Cuantos instrumentos tocas(opcional)
+     <input type="number" id="number" min="1" max="10" placeholder="0 - 10">
+    <fieldset> 
+      <legend>Género</legend>
+      <label class="sexo" for="masculino"> <input class="genero" id="genero" type="radio" value="genero" name="genero" checked> Masculino</label> 
+       <label class="sexo" for="femenino"> <input class="genero" id="genero" type="radio" value="genero" name="genero"> Femenino</label> 
+        </fieldset>
+     <fieldset> 
+     </label>
+<label for="dropdown"> ¿En qué nivel de teoria musical estás?
+  <select id="dropdown">
+    <option value="">Elige uno</option>
+    <option value="inicial">Inicial</option>
+    <option value="intermedio">Intermedio</option>
+    <option value="avanzado">Avanzado</option>
+    <option value="experto">Experto</option>
+</select>
+</label>
+</fieldset>
+<fieldset> 
+  <legend>
+    ¿Qué tipo de música tocas?
+  </legend for="academica">
+  <label for="academica"> 
+<input class="casillas" id="academica" type="checkbox" value="academica" checked> Académica
+  </label>
+  <label for="jazz"> 
+<input class="casillas" id="jazz" type="checkbox" value="jazz" > Jazz
+  </label>
+  <label for="folclorica"> 
+<input class="casillas" id="folclorica" type="checkbox" value="folclorica" > Folclórica
+  </label>
+  <label for="experimental"> 
+<input class="casillas" id="experimental" type="checkbox" value="experimental" > Experimental
+  </label>
+  <label for="rock">
+<input class="casillas" id="rock" type="checkbox" value="rock" > Rock   </label> 
+  </label for="de-todo">
+<input class="casillas" id="de-todo" type="checkbox" value="de-todo" > De todo
+  </label>
+</fieldset>
+<label for="info"> Cuentanos, como comenzaste, y cual fueron tus motivos para ser músico.
+  <textarea id="info" value="info" placeholder="una pequeña historia" rows="5" cols="20">
+    
+  </textarea>
+</label>
+<input id="submit" type="submit" value="submit">
+
+   </form>
+
+
+    </div>
+  </body>
+</html>
